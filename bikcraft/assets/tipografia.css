@@ -1,0 +1,24 @@
+:root{
+    --f1:4rem;
+    --f2:3rem;
+    --f3:2rem;
+    --f4:1.5rem;
+    --f5:1.125rem;
+  }
+  .f3{
+    font-size: var(--f3);
+  
+  }
+  .f4{
+  font-size: var(--f4);
+  
+  }
+  .f5{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+  }
+  .btn{
+    background-color: var(--p1);
+    padding: 1rem 2rem;
+  }

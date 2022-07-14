@@ -1,0 +1,74 @@
+.grid{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .article{
+    padding-top: 60px;
+  }
+  .article-conteudo{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+  }
+  .article-conteudo p{
+    text-align: right;
+  }
+  .article-conteudo::after{
+    content: '';
+    
+    height: 3px;
+    width: 50px;
+    background-color: #e21;
+    position: absolute;
+    top: 48px;
+    right: -25px;
+    
+  }
+  .btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--p1);
+    border-radius: 4px;
+     
+  }
+  .vantagens-lista{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+  }
+  .vantagens-lista li{
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: 16px 12px;
+    padding: 40px;
+    padding-bottom:28px ;
+    border-left: 4px solid rgb(255, 255, 255);
+  }
+  .vantagens-lista li:hover{
+    border-left: 4px solid var(--p1);
+  }
+  
+  .vantagens-lista li p{
+    grid-column: 2;
+    color: rgb(65, 65, 65);
+  }
+  .vantagens-subtitulo {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: var(--f2);
+    padding: 40px;
+    align-self: center;
+    justify-self: end;
+    background-image: url(img/onda.svg);
+  }
+  .vantagens-subtitulo h1{
+  text-align: right;
+  }
