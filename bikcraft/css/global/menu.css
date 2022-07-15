@@ -1,0 +1,33 @@
+/*menu*/
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .header-menu-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: var(--f5);
+  }
+  @media (max-width:600px){
+    .header-menu-lista{
+      display: none;
+    }
+  }
+  .header-menu-lista a{
+    display: block;
+    padding: 10px 20px;
+    color: inherit;
+    border: 2px solid rgb(245, 245, 245);
+    transition: 0.3s;
+  }
+  .header-menu-lista a:hover{
+    border-radius: 4px;
+    border: 2px solid var(--p1);
+    outline: none;
+  }
